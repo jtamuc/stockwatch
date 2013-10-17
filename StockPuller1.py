@@ -1,3 +1,8 @@
+# Stock price puller and plotter
+# Adam Hetzler and John Creasy 10/13/13
+#
+#
+
 import scipy as sp
 import numpy as np
 import urllib2
