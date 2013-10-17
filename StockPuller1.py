@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 import matplotlib
 
-
-stocks = raw_input('Please type your 4 digit stock to look up: ')
+# use raw input to ask for and take in the 4 digit stock ticker as a string
+stocks = raw_input('Please type your 4 digit stock to look up ex. MSFT: ')
 for stock in stocks:
     begin_day = "&a=1&b=1&c=2013"
     end_day = "&d=5&e=23&f=2013"
