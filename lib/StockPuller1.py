@@ -18,7 +18,7 @@ from instrument import stock
 stocks = raw_input('Please type your 4 digit stock to look up ex. MSFT: ')
 for stock in stocks:
     begin_day = "&a=1&b=1&c=2013"
-    end_day = "&d=5&e=23&http://download.eclipse.org/egit/updatesf=2013"
+    end_day = "&d=5&e=23&f=2013"
     ticker = "http://ichart.finance.yahoo.com/table.csv?s={}{}&g=d{}&ignore=.csv".format(stock,begin_day,end_day)
     f = urllib2.urlopen(ticker)
     stocktitles = f.readline().split(',')
